@@ -1,0 +1,52 @@
+{	
+	"geodata": {
+		"title" :         "SouthernAlpsNZ region#2",
+		"dtm_file" :      "NewZealand_MtCookROI_res30m_fillsinks0p2.tif",
+		"basins_file" :   "NewZealand_MtCookROI_res30m_basins.tif",
+		"data_path" :     [ "$SLMDATASRTM", "SouthernAlpsNZ"],
+		"do_clip_roi"  :   true,
+		"roi_bounds_units" :    "meters",
+        "roi_x_bounds_meters" :  [72000,100000],
+        "roi_y_bounds_meters" :  [135000,160000],
+		"basins" :          [307],
+		"do_basin_masking": true
+	},
+	
+	"analysis": {
+		"do_extra"                : true,
+		"do_compute_elevation_slope_pdfs" : true,	
+		"pdf_bw_factor_h_midline" : 0.8,
+		"pdf_bw_factor_h_all"     : 0.8,
+		"pdf_bw_factor_slope"     : 0.4,
+		"pdf_h_min"               : 0,
+		"pdf_h_max"               : 3000,
+		"pdf_h_midline_max_bound" : 1000,
+		"pdf_slope_max"           : 70
+	},
+	
+	"mapping": {
+		"do_pass1" : true,
+		"do_map_channels_segments" : false,
+		"do_map_hsl" : false,
+		"do_pass2" : false,
+		"do_pass3" : false,
+		"coarse_segmentation_threshold" : 100,
+		"coarse_channel_threshold"      : 100,
+		"midslope_filter_sigma"         : 16.66666666667
+    },
+    
+	"plot": {
+		"do_plot_midslope_elevations_pdf" : true,
+		"do_plot_slope_angles_pdf" : true,
+		"do_plot_hsl" : false,
+		"do_plot_hsl_contoured" : false,
+		"do_plot_hsl_distributions" : false,
+		"do_plot_aspect" : false,
+		"do_plot_hsl_aspect_distribution" : false,
+        "units" : 1000,
+        "mhsl_pdf_x_stretch" : 1.2,
+        "contour_label_fontsize" : 3,
+        "do_plot_hsl_contours" : false,
+        "do_plot_aspect_contours" : false
+	}
+}

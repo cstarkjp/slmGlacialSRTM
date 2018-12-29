@@ -1,0 +1,53 @@
+{	
+	"geodata": {
+		"title" :         "Rwenzori region#1",
+		"dtm_file" :      "Rwenzori_ROI1_res30m_fillsinks0p2.tif",
+		"basins_file" :   "Rwenzori_ROI1_res30m_fillsinks0p2_basins.tif",
+		"data_path" :     [ "$SLMDATASRTM", "Rwenzori"],
+		"do_clip_roi" :   true,
+		"roi_bounds_units" :    "meters",
+        "roi_x_bounds_meters" :   [0,17000],
+        "roi_y_bounds_meters" :   [1000,14500],
+		"basins" :          [97],
+		"do_basin_masking": true
+	},	
+	
+	
+	
+	"analysis": {
+		"do_extra"                : true,
+		"do_compute_elevation_slope_pdfs" : true,		
+		"pdf_h_min"               : 1000,
+		"pdf_h_max"               : 5200,
+		"pdf_h_midline_max_bound" : 2000,
+		"pdf_slope_max"           : 70
+	},
+	
+	
+	
+	"mapping": {
+		"do_pass1" : true,
+		"do_map_channels_segments" : false,
+		"do_map_hsl" : false,
+		"do_pass2" : false,
+		"do_pass3" : false,
+		"coarse_segmentation_threshold" : 100,
+		"coarse_channel_threshold"      : 100,
+		"midslope_filter_sigma"         : 10
+    },
+    
+	"plot": {
+		"do_plot_midslope_elevations_pdf" : true,
+		"do_plot_slope_angles_pdf" : true,
+		"do_plot_hsl" : false,
+		"do_plot_hsl_contoured" : false,
+		"do_plot_hsl_distributions" : false,
+		"do_plot_aspect" : false,
+		"do_plot_hsl_aspect_distribution" : false,
+        "units" : 1000,
+        "mhsl_pdf_x_stretch" : 1.2,
+        "contour_label_fontsize" : 3,
+        "n_midslope_iterations" : 1,
+        "n_ridge_iterations" : 1
+	}
+}
