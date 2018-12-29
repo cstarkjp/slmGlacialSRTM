@@ -2277,6 +2277,7 @@
         ]
     },
     "geodata": {
+		"latlong_wgs84": [36.485695, 74.895270],
         "active_masks_dict": {},
         "basins": [
             24

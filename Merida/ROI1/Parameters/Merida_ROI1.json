@@ -9,7 +9,8 @@
         "roi_x_bounds_meters" :   [0,22500],
         "roi_y_bounds_meters" :   [2000,37000],
 		"basins" :          [98],
-		"do_basin_masking": true
+		"do_basin_masking": true,
+		"latlong_wgs84": [8.955901, -70.957780]
 	},
 	
 	
