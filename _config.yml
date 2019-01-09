@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Glacial midslopes
+tagline:             'mapped on SRTM data using slm'
+description:         'Glacial midslopes mapped on SRTM data using slm'
+url:                 '/slm_glacial_srtm'
+baseurl:             '/slm_glacial_srtm'
+paginate:            8
+
+# About/contact
+author:
+  name:             CPS
+  url:              https://github.com/cstarknyc
+  email:            cstarknyc@gmail.com
