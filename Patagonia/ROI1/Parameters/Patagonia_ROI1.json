@@ -1,0 +1,55 @@
+{	
+	"geodata": {
+		"title" :         "Patagonia region#1",
+		"dtm_file" :      "Patagonia_ROIa_res30m_fillsinks0p1.tif",
+		"basins_file" :   "Patagonia_ROIa_res30m_fillsinks0p1_basins.tif",
+		"data_path" :     [ "$SLMDATASRTM", "Patagonia"],
+		"do_clip_roi"  :   false,
+		"roi_bounds_units" :    "meters",
+        "roi_x_bounds_meters" :  [],
+        "roi_y_bounds_meters" :  [],
+		"basins" :          [130],
+		"do_basin_masking": true,
+		"latlong_wgs84": [-42.474052, -72.195520]
+	},
+	
+	"analysis": {
+		"do_extra"                : true,
+		"do_compute_elevation_slope_pdfs" : true,	
+		"pdf_bw_factor_h_midline" : 1,
+		"pdf_bw_factor_h_all"     : 1,
+		"pdf_bw_factor_slope"     : 0.4,
+		"pdf_h_min"               : 0,
+		"pdf_h_max"               : 2500,
+		"pdf_h_midline_max_bound" : 0,
+		"pdf_slope_max"           : 85
+	},
+	
+	"mapping": {
+		"do_pass1" : true,
+		"do_map_channels_segments" : false,
+		"do_map_hsl" : false,
+		"do_pass2" : false,
+		"do_pass3" : false,
+		"coarse_segmentation_threshold" : 100,
+		"coarse_channel_threshold"      : 100,
+		"midslope_filter_sigma"         : 16.66666666667
+    },
+    
+	"plot": {
+		"n_midslope_iterations" : 2,
+		"n_ridge_iterations" : 2,
+		"do_plot_midslope_elevations_pdf" : true,
+		"do_plot_slope_angles_pdf" : true,
+		"do_plot_hsl" : false,
+		"do_plot_hsl_contoured" : false,
+		"do_plot_hsl_distributions" : false,
+		"do_plot_aspect" : false,
+		"do_plot_hsl_aspect_distribution" : false,
+        "units" : 1000,
+        "mhsl_pdf_x_stretch" : 1.2,
+        "contour_label_fontsize" : 3,
+        "do_plot_hsl_contours" : false,
+        "do_plot_aspect_contours" : false
+	}
+}
