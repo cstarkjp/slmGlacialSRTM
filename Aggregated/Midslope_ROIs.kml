@@ -45,11 +45,11 @@ rank               1.000000
 slope_mode        48.600000
 h_mode           673.000000
 all_h_mode       543.000000
-cpELA            100.000000
+cpELA            200.000000
 lat_wgs84        -44.731597
 mod_lat_wgs84     44.731597
 long_wgs84       167.834160
-h_mode-cpELA     573.000000
+h_mode-cpELA     473.000000
 Name: FiordlandNZ_ROI1, dtype: float64
 </description>
 <visibility>
