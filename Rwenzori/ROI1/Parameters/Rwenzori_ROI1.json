@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "Rwenzori region#1",
+		"title" : 		"Rwenzori region#1",
 		"dtm_file" :      "Rwenzori_ROI1_res30m_fillsinks0p2.tif",
 		"basins_file" :   "Rwenzori_ROI1_res30m_fillsinks0p2_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "Rwenzori"],
 		"do_clip_roi" :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :   [0,17000],
-        "roi_y_bounds_meters" :   [1000,14500],
+		"roi_x_bounds_meters" :   [0,17000],
+		"roi_y_bounds_meters" :   [1000,14500],
 		"basins" :          [97],
 		"do_basin_masking": true,
 		"latlong_wgs84": [0.335230, 29.845403]
@@ -45,10 +45,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "n_midslope_iterations" : 1,
-        "n_ridge_iterations" : 1
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"n_midslope_iterations" : 1,
+		"n_ridge_iterations" : 1
 	}
 }

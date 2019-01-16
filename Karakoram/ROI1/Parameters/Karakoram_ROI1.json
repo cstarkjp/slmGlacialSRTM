@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "Karakoram region#1",
+		"title" : 		"Karakoram region#1",
 		"dtm_file" :      "Karakoram_ROI1_res30m_fillsinks0p2.tif",
 		"basins_file" :   "Karakoram_ROI1_res30m_fillsinks0p2_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "Karakoram"],
 		"do_clip_roi" :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :   [0,160030],
-        "roi_y_bounds_meters" :   [],
+		"roi_x_bounds_meters" :   [0,160030],
+		"roi_y_bounds_meters" :   [],
 		"basins" :          [24],
 		"do_basin_masking": true,
 		"latlong_wgs84": [36.485695, 74.895270]
@@ -46,10 +46,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }

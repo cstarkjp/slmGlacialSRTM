@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "SouthernAlpsNZ region#3",
+		"title" : 		"SouthernAlpsNZ region#3",
 		"dtm_file" :      "NewZealand_ROIa_res30m_fillsinks0p4.tif",
 		"basins_file" :   "NewZealand_ROIa_res30m_fillsinks0p4_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "SouthernAlpsNZ"],
 		"do_clip_roi"  :   false,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :  [],
-        "roi_y_bounds_meters" :  [],
+		"roi_x_bounds_meters" :  [],
+		"roi_y_bounds_meters" :  [],
 		"basins" :          [176,977],
 		"do_basin_masking": true,
 		"latlong_wgs84": [-44.289742, 169.106647]
@@ -44,10 +44,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }

@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "SouthernAlpsNZ region#1",
+		"title" : 		"SouthernAlpsNZ region#1",
 		"dtm_file" :      "NewZealand_MtCookROI_res30m_fillsinks0p2.tif",
 		"basins_file" :   "NewZealand_MtCookROI_res30m_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "SouthernAlpsNZ"],
 		"do_clip_roi"  :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :  [9000,96000],
-        "roi_y_bounds_meters" :  [93000,142500],
+		"roi_x_bounds_meters" :  [9000,96000],
+		"roi_y_bounds_meters" :  [93000,142500],
 		"basins" :          [216],
 		"do_basin_masking": true,
 		"latlong_wgs84": [-43.939280, 169.486935]
@@ -44,10 +44,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }

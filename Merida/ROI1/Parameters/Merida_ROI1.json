@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "Merida region#1",
+		"title" : 		"Merida region#1",
 		"dtm_file" :      "Merida_ROI1_res30m_fillsinks0p5.tif",
 		"basins_file" :   "Merida_ROI1_res30m_fillsinks0p5_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "Merida"],
 		"do_clip_roi" :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :   [0,22500],
-        "roi_y_bounds_meters" :   [2000,37000],
+		"roi_x_bounds_meters" :   [0,22500],
+		"roi_y_bounds_meters" :   [2000,37000],
 		"basins" :          [98],
 		"do_basin_masking": true,
 		"latlong_wgs84": [8.955901, -70.957780]
@@ -47,10 +47,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }

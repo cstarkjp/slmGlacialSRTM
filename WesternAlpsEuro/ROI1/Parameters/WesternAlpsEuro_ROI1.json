@@ -1,14 +1,14 @@
 {	
 	"geodata": {
-		"title" :         "Western Alps (European) region#1",
+		"title" : 		"Western Alps (European) region#1",
 		"dtm_file" :      "WesternAlps_MatterhornROI_res30m_fillsinks0p2.tif",
 		"basins_file" :   "WesternAlps_MatterhornROI_res30m_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "WesternAlpsEuro"],
 		"h_min"        :   350,
 		"do_clip_roi"  :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :  [51000,186000],
-        "roi_y_bounds_meters" :  [24000,99000],
+		"roi_x_bounds_meters" :  [51000,186000],
+		"roi_y_bounds_meters" :  [24000,99000],
 		"basins" :          [488],
 		"do_basin_masking": true,
 		"latlong_wgs84": [45.716917, 7.531369]
@@ -44,10 +44,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }

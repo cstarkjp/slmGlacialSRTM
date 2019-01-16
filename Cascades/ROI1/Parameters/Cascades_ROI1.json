@@ -1,13 +1,13 @@
 {	
 	"geodata": {
-		"title" :         "Cascades region#1",
+		"title" : 		"Cascades region#1",
 		"dtm_file"    :   "Cascades_MtBakerROI_res30m_fillsinks0p2.tif",
 		"basins_file" :   "Cascades_MtBakerROI_res30m_basins.tif",
 		"data_path" :     [ "$SLMDATASRTM", "Cascades"],
 		"do_clip_roi" :   true,
 		"roi_bounds_units" :    "meters",
-        "roi_x_bounds_meters" :   [6000,129000],
-        "roi_y_bounds_meters" :   [21000,178000],
+		"roi_x_bounds_meters" :   [6000,129000],
+		"roi_y_bounds_meters" :   [21000,178000],
 		"basins" :          [1176],
 		"do_basin_masking": true,
 		"latlong_wgs84": [48.645553, -121.293901]
@@ -46,10 +46,10 @@
 		"do_plot_hsl_distributions" : false,
 		"do_plot_aspect" : false,
 		"do_plot_hsl_aspect_distribution" : false,
-        "units" : 1000,
-        "mhsl_pdf_x_stretch" : 1.2,
-        "contour_label_fontsize" : 3,
-        "do_plot_hsl_contours" : false,
-        "do_plot_aspect_contours" : false
+		"units" : 1000,
+		"mhsl_pdf_x_stretch" : 1.2,
+		"contour_label_fontsize" : 3,
+		"do_plot_hsl_contours" : false,
+		"do_plot_aspect_contours" : false
 	}
 }
