@@ -1,0 +1,393 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="docid">
+<name>
+Midslope ROIs
+</name>
+<description>
+ROI centers
+</description>
+<visibility>
+1
+</visibility>
+<Placemark id="id">
+<name>
+Cascades_ROI1
+</name>
+<description>
+rank                6.000000
+slope_mode         30.900000
+h_mode           1372.000000
+all_h_mode       1402.000000
+cpELA            1000.000000
+lat_wgs84          48.645553
+mod_lat_wgs84      48.645553
+long_wgs84       -121.293901
+h_mode-cpELA      372.000000
+Name: Cascades_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-121.293901,48.645553,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+FiordlandNZ_ROI1
+</name>
+<description>
+rank               1.000000
+slope_mode        48.600000
+h_mode           673.000000
+all_h_mode       543.000000
+cpELA            100.000000
+lat_wgs84        -44.731597
+mod_lat_wgs84     44.731597
+long_wgs84       167.834160
+h_mode-cpELA     573.000000
+Name: FiordlandNZ_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+167.834160,-44.731597,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Karakoram_ROI1
+</name>
+<description>
+rank               14.000000
+slope_mode         35.900000
+h_mode           4756.000000
+all_h_mode       4887.000000
+cpELA            3800.000000
+lat_wgs84          36.485695
+mod_lat_wgs84      36.485695
+long_wgs84         74.895270
+h_mode-cpELA      956.000000
+Name: Karakoram_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+74.895270,36.485695,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Merauke_ROI1
+</name>
+<description>
+rank               10.000000
+slope_mode         24.000000
+h_mode           3583.000000
+all_h_mode       3571.000000
+cpELA            4000.000000
+lat_wgs84          -3.717554
+mod_lat_wgs84       3.717554
+long_wgs84        136.729184
+h_mode-cpELA     -417.000000
+Name: Merauke_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+136.729184,-3.717554,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Merida_ROI1
+</name>
+<description>
+rank               13.000000
+slope_mode         34.000000
+h_mode           4176.000000
+all_h_mode       4317.000000
+cpELA            4000.000000
+lat_wgs84           8.955901
+mod_lat_wgs84       8.955901
+long_wgs84        -70.957780
+h_mode-cpELA      176.000000
+Name: Merida_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-70.957780,8.955901,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Patagonia_ROI1
+</name>
+<description>
+rank                2.000000
+slope_mode         40.900000
+h_mode           1005.000000
+all_h_mode       1005.000000
+cpELA             500.000000
+lat_wgs84         -42.474052
+mod_lat_wgs84      42.474052
+long_wgs84        -72.195520
+h_mode-cpELA      505.000000
+Name: Patagonia_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-72.195520,-42.474052,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Rwenzori_ROI1
+</name>
+<description>
+rank               12.000000
+slope_mode         30.000000
+h_mode           3934.000000
+all_h_mode       4039.000000
+cpELA            4000.000000
+lat_wgs84           0.335230
+mod_lat_wgs84       0.335230
+long_wgs84         29.845403
+h_mode-cpELA      -66.000000
+Name: Rwenzori_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+29.845403,0.335230,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+SantaMarta_ROI1
+</name>
+<description>
+rank               11.000000
+slope_mode         28.000000
+h_mode           3643.000000
+all_h_mode       3672.000000
+cpELA            3800.000000
+lat_wgs84          10.708514
+mod_lat_wgs84      10.708514
+long_wgs84        -73.790271
+h_mode-cpELA     -157.000000
+Name: SantaMarta_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-73.790271,10.708514,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+SouthernAlpsNZ_ROI1
+</name>
+<description>
+rank                3.000000
+slope_mode         31.500000
+h_mode           1055.000000
+all_h_mode       1070.000000
+cpELA             600.000000
+lat_wgs84         -43.939280
+mod_lat_wgs84      43.939280
+long_wgs84        169.486935
+h_mode-cpELA      455.000000
+Name: SouthernAlpsNZ_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+169.486935,-43.939280,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+SouthernAlpsNZ_ROI2
+</name>
+<description>
+rank                5.000000
+slope_mode         34.500000
+h_mode           1191.000000
+all_h_mode        980.000000
+cpELA             600.000000
+lat_wgs84         -43.648294
+mod_lat_wgs84      43.648294
+long_wgs84        169.923585
+h_mode-cpELA      591.000000
+Name: SouthernAlpsNZ_ROI2, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+169.923585,-43.648294,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+SouthernAlpsNZ_ROI3
+</name>
+<description>
+rank                4.000000
+slope_mode         30.700000
+h_mode           1176.000000
+all_h_mode        648.000000
+cpELA             600.000000
+lat_wgs84         -44.289742
+mod_lat_wgs84      44.289742
+long_wgs84        169.106647
+h_mode-cpELA      576.000000
+Name: SouthernAlpsNZ_ROI3, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+169.106647,-44.289742,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Talamanca_ROI1
+</name>
+<description>
+rank                9.000000
+slope_mode         12.700000
+h_mode           3457.000000
+all_h_mode       3317.000000
+cpELA            3500.000000
+lat_wgs84           9.378404
+mod_lat_wgs84       9.378404
+long_wgs84        -83.502273
+h_mode-cpELA      -43.000000
+Name: Talamanca_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-83.502273,9.378404,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+WesternAlpsEuro_ROI1
+</name>
+<description>
+rank                7.000000
+slope_mode         29.300000
+h_mode           2188.000000
+all_h_mode       2276.000000
+cpELA            2200.000000
+lat_wgs84          45.716917
+mod_lat_wgs84      45.716917
+long_wgs84          7.531369
+h_mode-cpELA      -12.000000
+Name: WesternAlpsEuro_ROI1, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+7.531369,45.716917,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+<Placemark id="id">
+<name>
+Tetons_ROI4
+</name>
+<description>
+rank                8.000000
+slope_mode         33.300000
+h_mode           2844.000000
+all_h_mode       2945.000000
+cpELA            2650.000000
+lat_wgs84          43.849644
+mod_lat_wgs84      43.849644
+long_wgs84       -110.829705
+h_mode-cpELA      194.000000
+Name: Tetons_ROI4, dtype: float64
+</description>
+<visibility>
+1
+</visibility>
+<Point>
+<coordinates>
+-110.829705,43.849644,1000.000000
+</coordinates>
+
+</Point>
+
+</Placemark>
+
+</Document>
+
+</kml>
