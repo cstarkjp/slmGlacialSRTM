@@ -8,8 +8,8 @@ permalink:           pretty
 title:               Glacial midslopes
 tagline:             'mapped on SRTM data using slm'
 description:         'Glacial midslopes mapped on SRTM data using slm'
-url:                 '/slm_glacial_srtm'
-baseurl:             '/slm_glacial_srtm'
+url:                 '/slmGlacialSRTM'
+baseurl:             '/slmGlacialSRTM'
 paginate:            8
 
 # About/contact
