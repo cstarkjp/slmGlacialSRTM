@@ -153,11 +153,11 @@ rank                2.000000
 slope_mode         40.900000
 h_mode           1005.000000
 all_h_mode       1005.000000
-cpELA             500.000000
+cpELA             700.000000
 lat_wgs84         -42.474052
 mod_lat_wgs84      42.474052
 long_wgs84        -72.195520
-h_mode-cpELA      505.000000
+h_mode-cpELA      305.000000
 Name: Patagonia_ROI1, dtype: float64
 </description>
 <visibility>
